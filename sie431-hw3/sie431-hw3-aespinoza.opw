@@ -1,0 +1,15 @@
+[RESOURCES]
+Doctor
+Registration Time
+[VARIABLES]
+Patient arrival.NumberOut
+Send to ER.NumberOut
+Registration Process.NumberOut
+Registration Process.NumberIn
+ER Decision.NumberOut True
+ER Decision.NumberOut False
+Patient Examination Times Decision.NumberOut False
+Examination Process.NumberOut
+Examination Process.NumberIn
+Send Patient Home.NumberOut
+Patient Examination Times Decision.NumberOut True
