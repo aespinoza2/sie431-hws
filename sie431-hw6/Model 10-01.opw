@@ -1,0 +1,7 @@
+[RESOURCES]
+Agent
+[VARIABLES]
+Handle The Call.NumberIn
+Create Call.NumberOut
+Handle The Call.NumberOut
+Terminate Call.NumberOut

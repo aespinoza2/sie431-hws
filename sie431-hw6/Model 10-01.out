@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                           espinozaagustin42@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Model 10.01 Simple Call Center                              Run execution date : 4/ 6/2023
+Analyst: Rockwell Automation                                         Model revision date: 4/ 6/2023
+
+Replication ended at time      : 600.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Arrival Entity.VATime                       .75000     1.2468E-16 .75000     .75000        535    
+Arrival Entity.NVATime                      .00000     .00000     .00000     .00000        535    
+Arrival Entity.WaitTime                     .79663     .24764     .00000     5.1188        535    
+Arrival Entity.TranTime                     .00000     .00000     .00000     .00000        535    
+Arrival Entity.OtherTime                    .00000     .00000     .00000     .00000        535    
+Arrival Entity.TotalTime                    1.5466     .24764     .75000     5.8688        535    
+Handle The Call.Queue.WaitingTime           .79657     .24764     .00000     5.1188        536    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Arrival Entity.WIP                          1.3823     .29167     .00000     8.0000     3.0000    
+Agent.NumberBusy                            .66930     (Insuf)    .00000     1.0000     1.0000    
+Agent.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Agent.Utilization                           .66930     (Insuf)    .00000     1.0000     1.0000    
+Handle The Call.Queue.NumberInQueue         .71301     .25557     .00000     7.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Arrival Entity.NumberIn                     538.00    
+Arrival Entity.NumberOut                    535.00    
+Agent.NumberSeized                          536.00    
+Agent.ScheduledUtilization                  .66930    
+System.NumberOut                            535.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

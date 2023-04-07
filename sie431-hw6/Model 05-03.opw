@@ -1,0 +1,51 @@
+[RESOURCES]
+Tierney
+Hermann
+Emma
+Noah
+Moe
+Larry
+Sammy
+Sales
+Aidan
+Charity
+Curly
+Molly
+Ian
+Anna
+Christie
+Trunk Line
+Mya
+[VARIABLES]
+Process Product Type 1 Tech Call.NumberIn
+Process Product Type 2 Tech Call.NumberIn
+Process Product Type 3 Tech Call.NumberIn
+Dispose of Rejected Call.NumberOut
+Process Product Type 1 Tech Call.NumberOut
+Process Product Type 2 Tech Call.NumberOut
+Process Product Type 3 Tech Call.NumberOut
+Returned Call Type 1.NumberOut
+Returned Call Type 2.NumberOut
+Returned Call Type 3.NumberOut
+Excess Tech Wait Time
+Excess Status Wait Time
+No Sales Person Required?.NumberOut True
+Tech Return WIP
+New Tech 3
+New Tech 2
+New Tech 1
+New Tech All
+Backoffice Research and Return Call?.NumberOut True
+Backoffice Research and Return Call?.NumberOut False
+Returned Call Type 1.NumberIn
+Returned Call Type 2.NumberIn
+Returned Call Type 3.NumberIn
+Trunk Line Available?.NumberOut False
+New Sales
+Excess Sales Wait Time
+No Sales Person Required?.NumberOut False
+Process Sales Call.NumberOut
+Dispose of Call Entity.NumberOut
+Process Sales Call.NumberIn
+Create Call Arrivals.NumberOut
+Trunk Line Available?.NumberOut True

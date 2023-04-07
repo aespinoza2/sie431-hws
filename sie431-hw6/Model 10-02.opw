@@ -1,0 +1,11 @@
+[RESOURCES]
+Agent
+[VARIABLES]
+Handle The Call.NumberIn
+Separate into Duplicate Entity for Call Arrival.NumberOut Dup
+Separate into Duplicate Entity for Call Arrival.NumberOut Orig
+Handle The Call.WaitTime
+Handle The Call.NumberOut
+Terminate Call.NumberOut
+Create Control Entity to Read Data.NumberOut
+Handle The Call.VATime
