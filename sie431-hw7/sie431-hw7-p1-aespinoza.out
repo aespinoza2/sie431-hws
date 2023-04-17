@@ -1,0 +1,92 @@
+
+                                      ARENA Simulation Results
+                           espinozaagustin42@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: In Class Exercise                                           Run execution date : 4/17/2023
+Analyst: SIE 431                                                     Model revision date: 4/17/2023
+
+Replication ended at time      : 5000.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Secondary Cycle                             33.043     (Insuf)    17.186     96.183         91    
+Primary Cycle                               41.937     (Corr)     9.3974     94.504        386    
+Tally 1                                         --         --         --         --          0
+Tally 2                                         --         --         --         --          0
+stacks.VATime                               .00000     .00000     .00000     .00000        477    
+stacks.NVATime                              .00000     .00000     .00000     .00000        477    
+stacks.WaitTime                             26.884     (Corr)     .00000     85.017        477    
+stacks.TranTime                             .00000     .00000     .00000     .00000        477    
+stacks.OtherTime                            14.102     .52604     9.2374     89.645        477    
+stacks.TotalTime                            40.987     (Corr)     9.3974     154.17        477    
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Customer.VATime                                 --         --         --         --          0
+Customer.NVATime                                --         --         --         --          0
+Customer.WaitTime                               --         --         --         --          0
+Customer.TranTime                               --         --         --         --          0
+Customer.OtherTime                              --         --         --         --          0
+Customer.TotalTime                              --         --         --         --          0
+Scan Q2 for Switch.Queue.WaitingTime            --         --         --         --          0
+Q2.Queue.WaitingTime                        13.846     (Insuf)    .00000     76.531         91    
+Scan Q1 for Switch.Queue.WaitingTime        54.052     (Insuf)    .02774     545.82         91    
+Q1.Queue.WaitingTime                        24.197     3.2922     .00000     85.017        478    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+stacks.WIP                                  3.9140     (Corr)     .00000     14.000     3.0000    
+Entity 1.WIP                                2.0000     (Insuf)    .00000     2.0000     2.0000    
+Customer.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Secondary Trimmer.NumberBusy                .34940     (Insuf)    .00000     1.0000     .00000    
+Secondary Trimmer.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Secondary Trimmer.Utilization               .34940     (Insuf)    .00000     1.0000     .00000    
+Primary Trimmer.NumberBusy                  .93384     (Insuf)    .00000     1.0000     1.0000    
+Primary Trimmer.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Primary Trimmer.Utilization                 .93384     (Insuf)    .00000     1.0000     1.0000    
+Scan Q2 for Switch.Queue.NumberInQueue      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Q2.Queue.NumberInQueue                      .25200     (Insuf)    .00000     4.0000     .00000    
+Scan Q1 for Switch.Queue.NumberInQueue      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Q1.Queue.NumberInQueue                      2.3150     (Corr)     .00000     8.0000     2.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+stack counter                                     0  Infinite
+Q1 Switch                                        91  Infinite
+Q2 Switch                                         0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+stacks.NumberIn                             480.00    
+stacks.NumberOut                            477.00    
+Entity 1.NumberIn                           2.0000    
+Entity 1.NumberOut                          .00000    
+Customer.NumberIn                           .00000    
+Customer.NumberOut                          .00000    
+Secondary Trimmer.NumberSeized              91.000    
+Secondary Trimmer.ScheduledUtilization      .34940    
+Primary Trimmer.NumberSeized                387.00    
+Primary Trimmer.ScheduledUtilization        .93384    
+System.NumberOut                            477.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

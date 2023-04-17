@@ -1,0 +1,99 @@
+
+----------------------------------------------------------------------
+17114:CCREAT
+A runtime error was detected at time 2195.2803 at the following block:
+
+ *    1 14$             CREATE,1,MinutesToBaseTime(0.0),Truck:
+                            MinutesToBaseTime(EXPO(9.1)):
+                            NEXT(15$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+2195.2803 Minutes>
+                                      ARENA Simulation Results
+                           espinozaagustin42@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: In Class Exercise                                           Run execution date : 4/17/2023
+Analyst: SIE 431                                                     Model revision date: 4/17/2023
+
+Replication ended at time      : 2195.2803 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                                 --         --         --         --          0
+Customer.NVATime                                --         --         --         --          0
+Customer.WaitTime                               --         --         --         --          0
+Customer.TranTime                               --         --         --         --          0
+Customer.OtherTime                              --         --         --         --          0
+Customer.TotalTime                              --         --         --         --          0
+Truck.VATime                                .00000     (Insuf)    .00000     .00000         88    
+Truck.NVATime                               .00000     (Insuf)    .00000     .00000         88    
+Truck.WaitTime                              679.49     (Insuf)    .00000     1352.1         88    
+Truck.TranTime                              .00000     (Insuf)    .00000     .00000         88    
+Truck.OtherTime                             24.853     (Insuf)    22.215     26.884         88    
+Truck.TotalTime                             704.34     (Insuf)    24.321     1378.1         88    
+Q2.Queue.WaitingTime                        687.33     (Insuf)    .00000     1376.9         89    
+Q1.Queue.WaitingTime                            --         --         --         --          0
+Q3.Queue.WaitingTime                            --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Truck.WIP                                   74.500     (Corr)     .00000     148.00     148.00    
+Dock 1.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Dock 1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Dock 1.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Dock 2.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+Dock 2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Dock 2.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Dock 3.NumberBusy                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Dock 3.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Dock 3.Utilization                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+Q2.Queue.NumberInQueue                      73.500     (Corr)     .00000     147.00     147.00    
+Q1.Queue.NumberInQueue                      .00000     (Insuf)    .00000     .00000     .00000    
+Q3.Queue.NumberInQueue                      .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           .00000    
+Customer.NumberOut                          .00000    
+Truck.NumberIn                              236.00    
+Truck.NumberOut                             88.000    
+Dock 1.NumberSeized                         .00000    
+Dock 1.ScheduledUtilization                 .00000    
+Dock 2.NumberSeized                         .00000    
+Dock 2.ScheduledUtilization                 .00000    
+Dock 3.NumberSeized                         89.000    
+Dock 3.ScheduledUtilization                 1.0000    
+System.NumberOut                            88.000    
+
+
+Simulation run time: 0.75 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).

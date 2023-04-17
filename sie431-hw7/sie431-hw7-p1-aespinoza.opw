@@ -1,0 +1,11 @@
+[RESOURCES]
+Secondary Trimmer
+Primary Trimmer
+[VARIABLES]
+Maintenance Check.NumberOut True
+Create Q1 Scan Entity.NumberOut
+Maintenance Check.NumberOut False
+Arrival of paper stacks.NumberOut
+Dispose 1.NumberOut
+Create Q2 Scan Entity.NumberOut
+stackCounter
